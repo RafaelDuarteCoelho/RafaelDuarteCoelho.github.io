@@ -1,0 +1,106 @@
+header > h1 {
+    font-size: 250%;
+    padding: 5px, 10px;
+    text-indent: 25px;
+    color: whitesmoke;
+}
+
+body {
+	font-family: 'Montserrat', sans-serif;
+}
+
+footer {
+    background: linear-gradient(rgba(238, 234, 11, 0.76), green);
+	text-align: center;
+	padding: 40px 0;
+}
+
+main {
+    background: radial-gradient(rgba(23, 62, 236, 0.651) 20%,rgba(238, 234, 11, 0.76) 85%);
+}
+
+header {
+	background: green;
+	padding: 20px 0;
+}
+
+
+.capital {
+	width: auto;
+	margin: 0 auto;
+	padding: 50px 0;
+}
+
+.capital > li {
+	display: inline-block;
+	text-align: center;
+	width: 15%;
+    height: 400px;
+	vertical-align: top;
+	margin: 1%;
+	padding: 20px 20px;
+	border: 2px dotted #000000;
+	border-radius: 10px;
+    font-size: 20px;
+}
+
+.capital > li:nth-child(3n) {
+	border: 2px dashed #000000;
+}
+
+.capital > li:nth-child(4n) {
+	border: 5px double #000000;
+}
+
+.capital-quadro > h2{
+    padding: 20px;
+    margin: 1%;
+}
+
+.capital-quadro > img{
+    padding: 20px;
+    margin: 1%;
+}
+
+.capital-counteudo{
+    padding: 5px;
+}
+
+img {
+    margin-left: auto;
+    margin-right: auto;
+    width: 200px;
+}
+
+.capital > li:hover {
+    border: 3px solid whitesmoke;
+}
+
+.capital li:hover img {
+    transform: scale(1.50);
+}
+
+.capital h2 {
+	font-size: 30px;
+	font-weight: bold;
+}
+
+.capital-estado {
+	font-size: 18px;
+    padding: 5px;
+    margin: 15px;
+    color: whitesmoke
+}
+
+.capital-estado:before {
+    content: "[";
+}
+
+.capital-estado:after {
+    content: "]";
+}
+
+#capitalBrasil {
+    font-style: oblique;
+    font-weight: bold;
+}
